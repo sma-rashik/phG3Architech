@@ -201,6 +201,10 @@ main {
   height: auto;
   padding: 20px;
   text-align: center;
+  transition: 0.3s;
+}
+.achievement-icons:hover {
+  background-color: #ffb45e;
 }
 .achievement-icons h3 {
   font-size: 30px;
@@ -243,6 +247,7 @@ I have use this section as a extra section for bonus
 }
 .sponsor-title h3 {
   font-size: 30px;
+  margin-bottom: 30px;
 }
 .sponsor-desc p {
   color: #727272;
@@ -264,4 +269,128 @@ I have use this section as a extra section for bonus
 
 /* Responsive FOr mobile */
 @media screen and (max-width: 576px) {
+  .nav-bar {
+    display: block;
+  }
+  .nav-item ul li {
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 11px;
+    margin-right: 25px;
+  }
+  .banner-section {
+    margin-top: 0;
+    text-align: start;
+    padding: 0;
+  }
+  .banner-section h2 {
+    margin-left: 60px;
+  }
+  .banner-section p {
+    margin-left: 60px;
+  }
+  .banner-section button {
+    margin-left: 60px;
+  }
+  .banner-title h2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .banner-desc p {
+    color: #727272;
+    font-weight: 400;
+    font-size: 15px;
+    width: 20%;
+    margin-top: 5px;
+  }
+  .btn button {
+    margin-top: 15px;
+  }
+  .banner-img img {
+    width: auto;
+    height: 284px;
+  }
+  .feature-section {
+    display: flex;
+
+    margin-top: -11px;
+    margin-bottom: 34px;
+    flex-direction: column-reverse;
+  }
+  .feature-imgs {
+    padding-left: 94px;
+  }
+  .experience-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience-title {
+    font-size: 18px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+  }
+  .experience-content {
+    width: 64%;
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+  }
+  .experience-img {
+    width: 52%;
+  }
+  .experience-img img {
+    width: 90%;
+    margin-left: 77px;
+  }
+  .exp-time {
+    bottom: 0;
+    right: -74px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .facts-content {
+    width: 81%;
+    left: 71px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+  }
+  .achievement-items {
+    flex-direction: column;
+  }
+  .blog-section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  .blog-title {
+    font-size: 30px;
+    padding: 20px;
+  }
+  .blog-desc p {
+    padding: 22px;
+  }
+  .section-focus {
+    width: 80%;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 0px;
+    margin-bottom: 26px;
+  }
+  .sponsors {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponsors img {
+    width: 200px;
+    padding: 10px;
+  }
+  footer {
+    margin-right: 100px;
+    background-color: #ffffff;
+  }
 }
