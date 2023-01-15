@@ -79,6 +79,8 @@ main {
 }
 .feature-imgs {
   padding-left: 180px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .feature-imgs img {
   width: 180px;
@@ -215,8 +217,7 @@ main {
 }
 .achievement-icons:hover {
 }
-/* =========================================Blog Styles
-I have use this section as a extra section for bonus
+/* =========================================Blog Styles I have use this section as a extra section for bonus
 =================================== */
 .blog-section {
   padding-top: 100px;
